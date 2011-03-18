@@ -4,9 +4,16 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>ibis</title>
         <link rel="shortcut icon" href="favicon.ico"/>
-        <!-- External lib: ExtJS -->
+
         <link rel="stylesheet" type="text/css" href="resources/css/ext-all-notheme.css"/>
         <link rel="stylesheet" type="text/css" href="resources/css/xtheme-gray.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/ibis.css"/>
+
+	<!-- Localization (i18n) -->
+        <script type="text/javascript" src="lib/i18n/nl_NL.js"></script>
+        <script type="text/javascript" src="lib/i18n.js"></script>
+
+        <!-- External lib: ExtJS -->
         <script type="text/javascript" src="lib/adapter/ext/ext-base.js"></script>
         <script type="text/javascript" src="lib/ext-all.js"></script>
 
@@ -21,7 +28,6 @@
         <script type="text/javascript" src="lib/DefaultConfig.js"></script>
 
         <!-- application -->
-        <link rel="stylesheet" type="text/css" href="resources/css/ibis.css"/>
         <script type="text/javascript" src="lib/FeatureInfoPanel.js"></script>
         <script type="text/javascript" src="lib/LoadingPanel.js"></script>
         <script type="text/javascript" src="lib/MapPanel.js"></script>
@@ -31,6 +37,7 @@
         <script type="text/javascript" src="lib/App.js"></script>
     </head>
     <body>
+	<script type="text/javascript">alert(__('Country'));</script>
         <div id="gv-mainpanel"></div>
     </body>
 </html>
