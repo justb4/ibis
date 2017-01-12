@@ -1,6 +1,10 @@
-This is the ibis gisviewer, based upon the geoext-viewer http://code.google.com/p/geoext-viewer/
+NB THIS REPO IS OUTDATED AND NO LONGER MAINTAINED
+PLEASE USE THE HERON MAPPING CLIENT AT https://github.com/heron-mc/heron-mc
 
-The geoext-viewer had to much external dependencies and code particular to the Dutch kadaster.
+This is the ibis gisviewer, based upon the geoext-viewer http://code.google.com/p/geoext-viewer/ 
+which later became the Heron Mapping Client, see http://heron-mc.org
+
+The geoext-viewer had too many external dependencies and code particular to the Dutch kadaster.
 
 We decided to create a viewer with as little external dependencies as possible, that could be installed without any dependencies outside the server it will get installed upon.
 
